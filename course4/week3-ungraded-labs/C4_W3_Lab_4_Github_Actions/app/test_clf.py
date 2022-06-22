@@ -1,6 +1,9 @@
 import pickle
 from main import clf
 
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+
 def test_pipeline_and_scaler():
 
     # Check if clf is an instance of sklearn.pipeline.Pipeline 
